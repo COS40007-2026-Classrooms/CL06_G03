@@ -10,13 +10,13 @@ on:
       - "requirements.txt"
       - "dvc.yaml"
       - ".github/workflows/train.yml"
-
-  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'    # Runs every Sunday at midnight UTC
+  workflow_dispatch:         # Manual trigger from Actions tab
 
 jobs:
   train-and-monitor:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
