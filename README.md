@@ -10,10 +10,10 @@ This project extends the original Group Task 1 system blueprint by adding automa
 
 | Name | Student ID | Role |
 |---|---:|---|
-| Sahil | 105295665 | Project Manager / Scrum Master / DagsHub / train.yml (3 triggers: push/cron/manual)|
-| Parav | 105321434 | Data Engineer |
-| Seniru | 104786647 | ML Engineer |
-| Nainika | 105321162 | MLOps / DevOps Lead |
+| Sahil Phogat| 105295665 | Project Manager / Scrum Master / DagsHub / train.yml (3 triggers: push/cron/manual)|
+| Parav Sharma| 105321434 | Data Engineer |
+| Seniru Perera| 104786647 | ML Engineer |
+| Nainika Sharma| 105321162 | MLOps / DevOps Lead |
 
 ## Main Features
 
